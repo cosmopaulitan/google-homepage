@@ -1,0 +1,167 @@
+#topnav {
+   width: 100%;
+   float: right;
+   font-family: Arial, Helvetica, sans-serif;
+   font: 16px Arial;
+}
+
+#topnav a {
+   float: right;
+   padding: 12px;
+   font-size: 16px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+a:link {
+   text-decoration: none;
+   color: black;
+}
+
+a:visited {
+   text-decoration: none;
+   color: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+a:active {
+   text-decoration: underline;
+}
+
+#topnav .button {
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   height: 20px;
+   width: 20px;
+   padding: 0px;
+   opacity: 0.7;
+}
+
+img {
+   cursor: pointer;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 500px;
+   height: 280px;
+   padding: 1em;
+   padding-left: 1em;
+   padding-bottom: 0;
+}
+
+#box {
+   display:flex;
+   flex-direction:row;
+}
+
+input[type="text"] {
+   font-family: Arial, Helvetica, sans-serif;
+   font: 16px Arial;
+   width: 700px;
+   height: 60px;
+   border-radius: 30px;
+   padding-inline-start: 20px;
+   padding-top: 0;
+   background-color: #fff;
+   margin: auto;
+   position: relative;
+   border-top: 1px;
+   border-bottom: 1px;
+   border-right: 1px;
+   border-left: 1px;
+   border-style: solid;
+   border-color: rgb(223,225,229)
+}
+
+input:focus {
+   outline: none;
+}
+
+#box button {
+   background-size: cover;
+   height: 40px;
+   width: 30px;
+   position: absolute;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+   border: none;
+   background-color: inherit;
+   margin-left: 790px;
+   margin-top: 10px;
+}
+
+.formbuttons {
+   position: relative;
+   text-align: center;
+   padding: 25px;
+}
+
+.btn {
+   height: 50px;
+   width: 150px;
+   padding: 12px;
+   cursor: pointer;
+   margin: 13px;
+   border-radius: 5px;
+   border-color: none;
+   border: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font: 16px Arial;
+   background-color: rgb(242,242,242);
+   color: #5F6368;
+}
+
+::placeholder {
+   color: rgb(0,0,0);
+}
+
+.footermain {
+   position: fixed;
+   display: block;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   font: 16px Arial;
+   background-color: #eee;
+   border-top-color: rgb(95,99,104);
+   border-top: 1px;
+}
+
+.leftnav {
+   position: relative;
+   bottom: 5px;
+   top: 5px;
+   float: left;
+   font-size: 16px;
+   padding: 12px;
+   margin-left: 30px;
+   margin-right: auto;
+}
+
+.leftnav a {
+   padding: 20px;
+   color: rgb(95,99,104);
+}
+
+.rightnav {
+   position: relative;
+   bottom: 5px;
+   top: 5px;
+   float: right;
+   font-size: 16px;
+   padding: 12px;
+   margin-left: auto;
+   margin-right: 30px;
+}
+
+.rightnav a {
+   padding: 20px;
+   color: rgb(95,99,104);
+}
+
+
